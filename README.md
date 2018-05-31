@@ -1,12 +1,12 @@
 # mmap
 
-# Project Title and purpose
+# Minnesota Map - Displays Various locations in MN
 
 One Paragraph of project description goes here
 
-### Difficulties or opportunities you encountered along the way.
+### Difficulties - Mouse Hover, finding right location of coordniates.
 
-The toughest part was...
+The toughest part was finding the specific coordinates of each location and making sure the mouse hovers over it. 
 
 ### Most interesting piece of your code and explanation for what it does.
 
@@ -37,7 +37,7 @@ This is the code that moves down the tree as decisions are made.  It gets each v
 
 ## Authors
 
-* **Billie Thompson** 
+* **Tanya Ramesh, Shayla Lunn, Kaumudi Mummadi n** 
 
 
 ## Acknowledgments
