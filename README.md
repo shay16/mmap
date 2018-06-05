@@ -2,7 +2,9 @@
 
 # Minnesota Map - Displays Various locations in MN
 
-One Paragraph of project description goes here
+Our project will focus on a map of Minnesota, highlighting interesting facts and locations within the state. The project will run on three computers connected across a network. The application that we will create will allow users to have an interactive look into Minnesota’s greatest attractions and click on points to learn facts about certain locations. 
+
+
 
 ### Difficulties - Mouse Hover, finding right location of coordniates.
 
@@ -11,26 +13,15 @@ The toughest part was finding the specific coordinates of each location and maki
 ### Most interesting piece of your code and explanation for what it does.
 
 ```Java
-void keyPressed() {
-  if (keyCode == LEFT) {
-    tree= tree.getLeft();
-    System.out.println(tree.getValue());
-    String s=(String)tree.getValue();
-    fill(155);
-    textSize(50);
-  } else if (keyCode == RIGHT) {
-    tree = tree.getRight();
-    System.out.println(tree.getValue());
-    String s=(String)tree.getValue();
-    fill(155);
-    textSize(50);
-  } else if (tree.getLeft()==null&&tree.getRight()==null) {
-    System.out.println(tree.getValue());
-    tree=t.returnTree();
-  }
-}
+if(mouseX > 350 && mouseX < 450 && mouseY > 350 && mouseY < 450) {
+    fill(255, 255, 179);
+    rect(400,400,350,300);
+    fill(156, 90, 117);
+    textSize(18);
+    text(" Hi welcome to Bemidji!\n Bemidji is a town in Northwestern \n Minnesota,famous for it’s roadside  \n monument \n of Paul Bunyan and Babe the Blue Ox.", 410,430);
+    }
 ```
-This is the code that moves down the tree as decisions are made.  It gets each value from both left and right and also casts the value to a String.  If the progressions arrives at the leaf nodes, those values are printed.
+This is the code that showes the text when the mouse hovers over the star. 
 ## Built With
 
 * [Processing](https://processing.org/) - The IDE used
