@@ -2,7 +2,7 @@
 
 # Minnesota Map - Displays Various locations in MN
 
-Our project will focus on a map of Minnesota, highlighting interesting facts and locations within the state. The project will run on three computers connected across a network. The application that we will create will allow users to have an interactive look into Minnesota’s greatest attractions and click on points to learn facts about certain locations. 
+Our project focuses on a map of Minnesota, highlighting interesting facts and locations within the state. The project runs on processing. The application that we will create will allow users to have an interactive look into Minnesota’s greatest attractions and hover over points to learn facts about certain locations. 
 
 
 
